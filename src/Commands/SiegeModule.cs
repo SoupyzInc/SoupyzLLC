@@ -4,7 +4,7 @@ using Discord.Commands;
 using HtmlAgilityPack;
 
 /// <summary>
-/// Contains all necessary methods to find and report 
+/// Contains all necessary methods to find and report a player's Rainbow Six Siege statistics.
 /// </summary>
 public class SiegeModule : ModuleBase<SocketCommandContext>
 {
