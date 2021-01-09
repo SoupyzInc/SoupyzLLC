@@ -67,7 +67,7 @@ public class StartUp
 
         await InitCommands(); //Centralize the logic for commands into a separate method
 
-        string token = System.IO.File.ReadAllText(@"C:\Users\armyd\source\repos\SoupyzLLC\token.txt"); //Grabs token from text file.
+        string token = System.IO.File.ReadAllText(@"\token.txt"); //Grabs token from text file.
 
         await _client.LoginAsync(TokenType.Bot, token);
         await _client.StartAsync();
