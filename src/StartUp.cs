@@ -102,7 +102,7 @@ public class StartUp
 
         int pos = 0; //Tracks where the prefix ends and the command begins
 
-        if (msg.HasCharPrefix('.', ref pos) /* || msg.HasMentionPrefix(_client.CurrentUser, ref pos) */) //Uncomment to allow mentioning the bot to invoke commands
+        if (msg.HasCharPrefix('.', ref pos)
         {            
             var context = new SocketCommandContext(_client, msg); //Create a Command Context            
             var result = await _commands.ExecuteAsync(context, pos, _services); //Execute the command
