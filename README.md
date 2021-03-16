@@ -9,7 +9,7 @@ Will handle invalid usernames.
 ![](https://github.com/SoupyzInc/SoupyzLLC/blob/main/Wiki/error%20handling.gif)
 
 ### Installation 
-If you wish to use this bot, you can download and run the code your self. Please do not spam this bot and DDOS r6tracker's servers.
+If you wish to use this bot, you can download and run the code your self.
 1. Download the code from the [`src` folder](https://github.com/SoupyzInc/SoupyzLLC/tree/main/src) of this repository.
 2. Create a Discord bot and get your token.
 3. Create a  `token.txt` file with your token. _Do not ever share your token with anyone._
