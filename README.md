@@ -1,12 +1,12 @@
 # SoupyzLLC
 A Discord bot written in C# with [Discord.Net](https://github.com/discord-net/Discord.Net) that gets your Rainbow Six Siege stats from [r6tracker](https://r6.tracker.network/) by utilizing the [HTML Agility Pack](https://html-agility-pack.net/). You can look up a Rainbow Six Siege player's stats using `.r6 UserName Platform` in any Discord server with the SoupyzLLC bot. SoupyzLLC will return the player's avatar, mmr, rank, level, seasonal kill/death ratio, and headshot percentage. _Note: if and when r6tracker changes their website ui, the bot will no longer function properly._
 
-![](https://github.com/SoupyzInc/SoupyzLLC/blob/main/Wiki/search%20example.gif)
+![Example usage with Spoit and Beaulo.](https://github.com/SoupyzInc/SoupyzLLC/blob/main/Wiki/search%20example.gif)
 
 ## Error Handling
 Will handle invalid usernames.
 
-![](https://github.com/SoupyzInc/SoupyzLLC/blob/main/Wiki/error%20handling.gif)
+![Example usage of error handling.](https://github.com/SoupyzInc/SoupyzLLC/blob/main/Wiki/error%20handling.gif)
 
 ### Installation 
 If you wish to use this bot, you can download and run the code your self. Know that if you want to use this on a large scale, web scraping is not the best idea. You may want to look into using an API to get game data.
