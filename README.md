@@ -4,7 +4,7 @@ A Discord bot written in C# with [Discord.Net](https://github.com/discord-net/Di
 ![](https://github.com/SoupyzInc/SoupyzLLC/blob/main/Wiki/search%20example.gif)
 
 ## Error Handling
-Will handle invalid usernames and usernames that do not exist.
+Will handle invalid usernames.
 
 ![](https://github.com/SoupyzInc/SoupyzLLC/blob/main/Wiki/error%20handling.gif)
 
